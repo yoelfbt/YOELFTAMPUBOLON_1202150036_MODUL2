@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@mipmap/logo"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pilih Menu:"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+    
+    <RadioGroup
+        android:id="@+id/Radiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="150dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbdine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dine in" />
+
+        <RadioButton
+            android:id="@+id/rbtake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Away" />
+    </RadioGroup>
+    <Button
+        android:id="@+id/btnpesan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pesan sekarang"
+        android:layout_gravity="center"
+        android:onClick="pesan"/>
+</LinearLayout>

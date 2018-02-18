@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">YOEL F.TAMPUBOLON_1202150036_MODUL2</string>
+    <string name="todo">TODO</string>
+    <string-array name="tables">
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+    </string-array>
+</resources>
